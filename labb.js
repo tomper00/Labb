@@ -7,7 +7,7 @@ if (targetElement) {
         for (const mutation of mutationsList) {
             console.log('Mutation detected:', mutation); // Skriver detaljer om ändringarna till konsolen
             console.log("Search");
-            console.log(document.querySelector(".omnia-workplace-quick-search[dialogmode="true"] input").innerText);
+            console.log(document.querySelector(".omnia-workplace-quick-search[dialogmode='true'] input").innerText);
         }
     });
 
