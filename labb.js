@@ -1,6 +1,6 @@
 // Hitta elementet att observera
-const targetElement = document.querySelector(".owpl-quick-search-dialogbody_fhnqszy .dropdown-content");
-
+const targetElement = document.querySelector(".owpl-quick-search-dialogbody_fhnqszy .dropdown-content");//
+//[]
 if (targetElement) {
     // Skapa en observer
     const observer = new MutationObserver((mutationsList) => {
